@@ -1,0 +1,83 @@
+#menu{
+	position: fixed;
+	top:0;
+	width: 100%;
+	left:0;
+	height:74px;
+	background: linear-gradient(rgba(44,104,138,1) 0%, rgba(5,91,142,1) 12%, rgba(5,91,142,1) 26%, rgba(11,131,202,1) 100%);
+	color:white;
+	font-size: 24px;
+	font-family: Microsoft JhengHei;
+}
+#footer{
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	left:0;
+	height:40px;
+	background: linear-gradient(rgba(11,111,182,1) 0%, rgba(5,91,142,1) 74%, rgba(5,91,142,1) 88%,rgba(44,104,138,1) 0%);
+	color:white;
+	font-size: 20px;
+	font-family: Microsoft JhengHei;
+}
+#topmenu{
+	float:left;
+  	margin-top: 10px;
+  	width: 100%;
+}
+#menulogo{
+  	float:left;
+  	font-size: 40px;
+  	margin-left: 40px;
+  	font-weight: bold;
+  }
+#searchbar{
+	float:left;
+	margin-top: 11.5px;
+  	margin-left: 20px;
+}
+#searchbar input{
+	float:left;
+	width: 600px;
+	font-size: 20px;
+}
+#searchbutton{
+	float:left;
+	border-radius: 5px;
+}
+#searchbutton:hover{
+	cursor: pointer;
+}
+#downmenu{
+	float:left;
+  	margin-top: 15px;
+  	height:70px;
+  	width: 100%;
+}
+#menulogo:hover{
+	cursor: pointer;
+}
+#loginbutton:hover{
+	cursor: pointer;
+}
+#registerbutton:hover{
+	cursor: pointer;
+}
+#homebutton:hover{
+	cursor: pointer;
+}
+#aboutusbutton:hover{
+	cursor: pointer;
+}
+#loginmodal{
+	width:400px;
+}
+#registrationmodal{
+	width:400px;
+}
+#registrationbody{
+	height:320px;
+}
+#loginbody{
+	height:280px;
+}
